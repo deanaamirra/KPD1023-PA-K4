@@ -5,23 +5,22 @@
       .header {
        margin: auto;
        overflow: hidden;
+       width: 100%;
       }
       .header_logo {
-      padding-top:;
+      padding: ;
       }
       .header_logo img {
       padding: 60px;
-      padding-left: 20px;
       width: 90px;
       float: left;
       }
       .header_greeting {
       float: left;
+      text-align: center;
       padding: 90px;
       font-size: 10mm;
       font-weight: bold;
-      padding-top: 60px;
-      padding-left: 5px;
       }
       .logo_media_sosial {
       padding-top: 50px;
@@ -31,30 +30,27 @@
       width: 20px;
       padding: 5px;
       border-radius: 50%;
+      margin-top: 50px;
       float: right;
       }
        .menu {
        margin-top: 25px;
-       text-align: center;
        background-color: black;
        color: white;
        }
        .menu img {
-       text-align: center;
        float: left;
        color: white;
        }
        .menu ul {
        list-style-type: none;
        margin: auto;
-       text-align: center;
        background-color: black;
        color: white;
        overflow: hidden;
        }
        .menu li {
        float: left;
-       text-align: center;
        background-color: black;
        color: white;
        }
@@ -62,7 +58,6 @@
        text-decoration: none;
        display: block;
        padding: 15px;
-       text-align: center;
        color: white;
        }
        .menu li:hover {
@@ -79,21 +74,12 @@
        height: 30px;
        text-align: center;
        }
-       .form:hover {
-       float: right;
-       background-color: lightcoral;
-       }
        .hantar {
        float: right;
        margin: 5px;
-       margin-top: 5px;
        border-radius: 5px;
        height: 30px;
        text-align: center;
-       }
-       .hantar:hover {
-       float: right;
-       background-color: lightcoral;
        }
     </style>
   </head>
@@ -117,16 +103,17 @@
 
     <!--MENU-->
     <div class="menu">
+      <form action="">
       <ul>
         <li><a href="#">BERITA</a></li>
         <li><a href="#">SUKAN</a></li>
         <li><a href="#">DUNIA</a></li>
         <li><a href="#">HIBURAN</a></li>
       </ul>
-        <input type="submit" value="Cari" class="hantar">
         <input type="text" class="form" placeholder="Masuk Kata Kunci">
+        <input type="submit" value="Cari" class="hantar">
       </form>
-    </div>
+        </div>
     </div>
       
     <!--CONTENT-->
